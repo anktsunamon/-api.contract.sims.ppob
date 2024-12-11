@@ -24,7 +24,7 @@ environments.production = {
     database: 'railway',
     secret: secret,
     databaseUrl: 'mysql://root:mbAGnEYoDHNTLBAWlazwBYvlGAqxXILF@junction.proxy.rlwy.net:36875/railway',
-    origin: 'https://api.syndpix.id'
+    origin: 'https://apicontractsimsppob-production.up.railway.app'
 };
 
 let env = process.env.ENVIRONMENT;
