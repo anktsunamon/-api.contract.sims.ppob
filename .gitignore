@@ -3,12 +3,6 @@
 # Learn more about .gitignore:
 #     https://www.atlassian.com/git/tutorials/saving-changes/gitignore
 
-# Node artifact files
-node_modules/
-package-lock.json
-
-.env
-
 # Compiled Java class files
 *.class
 
@@ -26,9 +20,6 @@ target/
 
 # JetBrains IDE
 .idea/
-
-# Ignore .env file
-.env
 
 # Unit test reports
 TEST*.xml
