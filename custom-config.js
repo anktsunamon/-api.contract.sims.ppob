@@ -11,17 +11,19 @@ environments.development = {
     password: '!B6958kTa',
     database: 'api.contract.sims.ppob',
     secret: secret,
+    databaseUrl: '',
     origin: 'http://localhost:2800'
 };
 
 environments.production = {
     port: 2800,
     envName: 'production',
-    host: 'localhost',
-    user: 'syndIT',
-    password: '!B6958kTa',
-    database: 'api.contract.sims.ppob',
+    host: 'mysql.railway.internal',
+    user: 'root',
+    password: 'mbAGnEYoDHNTLBAWlazwBYvlGAqxXILF',
+    database: 'railway',
     secret: secret,
+    databaseUrl: 'mysql://root:mbAGnEYoDHNTLBAWlazwBYvlGAqxXILF@junction.proxy.rlwy.net:36875/railway',
     origin: 'https://api.syndpix.id'
 };
 
